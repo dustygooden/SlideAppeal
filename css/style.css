@@ -1,0 +1,57 @@
+/* General */
+*{
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+}
+
+
+/* Style for Desktop Devices */
+#main-nav{
+	/* Add your Style Here */
+}
+	#main-ul{
+		padding: 10px;
+	}
+	#toggleButton{
+		display: none;
+	}
+
+.main-content{
+	text-align: center;
+}
+	.main-content article{
+		margin-top: 200px;
+	}
+	
+	
+/* Style for Mobile Devices */
+@media screen and (max-width: 675px){
+	
+	#main-nav{
+		color: #fff;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		line-height: 1.5;
+	}
+		#main-nav > ul{
+			background-color: #444;
+			list-style: none;
+		}
+			#main-nav ul li{
+				display: block;
+			}
+			#main-nav a{
+				text-decoration: none;
+				color: inherit;
+			}
+		#toggleButton{
+			display: block;
+			width: 75px;
+			height: 30px;
+			background-color: rgba(192, 192, 192, .8);
+			margin: auto;
+			border-bottom-left-radius: 0.5em;
+			border-bottom-right-radius: 0.5em;
+		}
+}
