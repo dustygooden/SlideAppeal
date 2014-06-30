@@ -25,7 +25,7 @@
 	
 	
 /* Style for Mobile Devices */
-@media screen and (max-width: 675px){
+@media screen and (max-width: 799px){
 	
 	#main-nav{
 		color: #fff;
@@ -53,5 +53,11 @@
 			margin: auto;
 			border-bottom-left-radius: 0.5em;
 			border-bottom-right-radius: 0.5em;
+			text-align: center;
+			color: rgba(245, 245, 245, .8);
+			font-size: 20px;
+		}
+		#toggleButton > span{
+			padding: 5px;
 		}
 }

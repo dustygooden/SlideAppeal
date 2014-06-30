@@ -128,4 +128,8 @@ SlideZilla is compatible with Dropotron, by N33 (check him out on GitHub). Dropo
 devices, and is a good companion to SlideZilla. However, you will need to add a tag to the top of the
 dropotron js file that stops it from running when the #toggleButton is visible. You will also need to add
 this to the <script> located in the HTML file in his demo (it tells dropotron what your #main-nav is).
+
+Font-Awesome has been integrated with this demo, currently it is only used in the navigation section.
+One note is that it causes a jQuery warning to appear if you use the bootstrap version, this will hopefully 
+change soon.
  
